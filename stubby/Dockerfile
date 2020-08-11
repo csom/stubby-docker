@@ -32,7 +32,6 @@ RUN set -e -x && \
         -Wl,-rpath=/opt/openssl/lib \
         --prefix=/opt/openssl \
         --openssldir=/opt/openssl \
-        enable-ec_nistp_64_gcc_128 \
         -DOPENSSL_NO_HEARTBEATS \
         no-weak-ssl-ciphers \
         no-ssl2 \
