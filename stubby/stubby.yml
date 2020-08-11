@@ -102,7 +102,7 @@ dnssec_return_status: GETDNS_EXTENSION_TRUE
 #
 # In Opportunistic mode they only require an IP address in address_data.
 #
-upstream_recursive_servers:
+upstream_recursive_servers: 
 
 ####### IPv4 addresses ######
 ## Cloudflare 1.1.1.1 and 1.0.0.1
